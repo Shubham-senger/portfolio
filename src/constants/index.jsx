@@ -28,8 +28,8 @@ export const navLinks = [
 export const myProjects = [
   {
     title: 'Zentry-UI',
-    desc: 'Developed a UI for a gaming website name zentry using modern animations.',
-    subdesc: 'Implemented Cool Animations and smooth scroll and modern designs using GSAP library, tailwind CSS and motion framer.',
+    desc: 'Designed and developed an engaging and visually appealing UI for Zentry, a gaming platform.',
+    subdesc: 'Utilized GSAP library, Tailwind CSS, and Framer Motion to create dynamic animations, smooth scrolling, and modern design aesthetics, enhancing user interaction and engagement.',
     href: 'https://zentry-five.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
@@ -40,23 +40,14 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
-      }
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
     ],
   },
   {
-    title: 'UI for Saas landing page',
-    desc: 'Developed a good looking modern UI for a SAAS landing page  ',
-    subdesc: 'Implemented Modern design using react and tailwindcss and give it a modern design look using great color combination and by the use of different css classes.',
+    title: 'UI for SaaS Landing Page',
+    desc: 'Crafted a modern and sleek UI for a SaaS landing page, optimizing user experience and aesthetic appeal.',
+    subdesc: 'Implemented advanced design principles using React and Tailwind CSS, focusing on a clean, responsive layout with strategic use of color and spacing for a professional look.',
     href: 'https://saas-landing-page-orcin.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
@@ -67,23 +58,14 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      
-      {
-        id: 4,
-        name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
-      }
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 4, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
     ],
   },
   {
     title: 'Vartalap - A Chatting App',
-    desc: 'Developed a real-time messaging website with responsive design using Node.js, JavaScript, Socket.io, React, and TailwindCSS',
-    subdesc: 'Implemented secure login functionality with strong password requirements. Allow user to view past conversations within app. Facilitate sending text messages, audio, and sharing files securely. Utilized Prisma ORM for efficient database management.',
+    desc: 'Built a responsive, real-time messaging application offering robust features and a smooth user experience.',
+    subdesc: 'Integrated Node.js, Socket.io, and Prisma ORM for backend operations. The frontend, developed with React and Tailwind CSS, supports secure login, text, audio messaging, and file sharing.',
     href: 'https://sender.prajjwal.dev/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo1.png',
@@ -94,32 +76,16 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/node.png',
-      },
-      {
-        id: 3,
-        name: 'Socket.io',
-        path: '/assets/socket.png',
-      },
-      {
-        id: 4,
-        name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
-      }
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'Node.js', path: '/assets/node.png' },
+      { id: 3, name: 'Socket.io', path: '/assets/socket.png' },
+      { id: 4, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
     ],
   },
   {
-    title: 'Friends Fews - A Social Media web Application',
-    desc: 'Created a full-stack social media platform using React, MongoDB, Node.js, Express, and JWT',
-    subdesc: 'Implemented features for user authentication, post creation/deletion, profile updates, and user interactions (like/unlike, comments, follow/unfollow). Designed and developed responsive UI for seamless user experience across devices.',
+    title: 'Friends Fews - A Social Media Web Application',
+    desc: 'Developed a full-stack social media application facilitating user interaction and content sharing.',
+    subdesc: 'Implemented user authentication, profile management, and post functionalities using React for the frontend and MongoDB with Node.js for the backend, ensuring a secure and scalable platform.',
     href: '#',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo2.png',
@@ -130,29 +96,15 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'MongoDB',
-        path: '/assets/mongo.png',
-      },
-      {
-        id: 3,
-        name: 'Node.js',
-        path: '/assets/node.png',
-      },
-      {
-        id: 4,
-        name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
-      }
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'MongoDB', path: '/assets/mongo.png' },
+      { id: 3, name: 'Node.js', path: '/assets/node.png' },
+      { id: 4, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
     ],
-  }
+  },
 ];
+
+
 
 export const workExperiences = [
   {
