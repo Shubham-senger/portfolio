@@ -27,10 +27,10 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: 'Vartalap - A Chatting App',
-    desc: 'Developed a real-time messaging website with responsive design using Node.js, JavaScript, Socket.io, React, and TailwindCSS',
-    subdesc: 'Implemented secure login functionality with strong password requirements. Allow user to view past conversations within app. Facilitate sending text messages, audio, and sharing files securely. Utilized Prisma ORM for efficient database management.',
-    href: '#',
+    title: 'Zentry-UI',
+    desc: 'Developed a UI for a gaming website name zentry using modern animations.',
+    subdesc: 'Implemented Cool Animations and smooth scroll and modern designs using GSAP library, tailwind CSS and motion framer.',
+    href: 'https://zentry-five.vercel.app/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -39,6 +39,60 @@ export const myProjects = [
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
     spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      }
+    ],
+  },
+  {
+    title: 'UI for Saas landing page',
+    desc: 'Developed a good looking modern UI for a SAAS landing page  ',
+    subdesc: 'Implemented Modern design using react and tailwindcss and give it a modern design look using great color combination and by the use of different css classes.',
+    href: 'https://saas-landing-page-orcin.vercel.app/',
+    texture: '/textures/project/project1.mp4',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      
+      {
+        id: 4,
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
+      }
+    ],
+  },
+  {
+    title: 'Vartalap - A Chatting App',
+    desc: 'Developed a real-time messaging website with responsive design using Node.js, JavaScript, Socket.io, React, and TailwindCSS',
+    subdesc: 'Implemented secure login functionality with strong password requirements. Allow user to view past conversations within app. Facilitate sending text messages, audio, and sharing files securely. Utilized Prisma ORM for efficient database management.',
+    href: 'https://sender.prajjwal.dev/',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
@@ -67,14 +121,14 @@ export const myProjects = [
     desc: 'Created a full-stack social media platform using React, MongoDB, Node.js, Express, and JWT',
     subdesc: 'Implemented features for user authentication, post creation/deletion, profile updates, and user interactions (like/unlike, comments, follow/unfollow). Designed and developed responsive UI for seamless user experience across devices.',
     href: '#',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: '/assets/spotlight4.png',
     tags: [
       {
         id: 1,

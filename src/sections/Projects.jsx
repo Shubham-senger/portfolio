@@ -36,13 +36,13 @@ const Projects = () => {
                     />
                 </div>
                 
-                <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={myProjects[0].logoStyle}>
+                {/* <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={myProjects[0].logoStyle}>
                     <img
                         src={currentProject.logo}
                         alt="logo"
                         className="w-10 h-10 shadow-sm"
                     />
-                </div>
+                </div> */}
 
                 <div className="flex flex-col gap-5 text-white-600 my-5">
                     <p className="text-white text-2xl font-semibold animatedText">
