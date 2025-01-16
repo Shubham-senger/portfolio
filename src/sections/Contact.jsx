@@ -21,7 +21,7 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_1lwycd4", //service key
+        "service_tzydrs4", //service key
         "template_pg6r0ii", //Template key
         {
           from_name: form.name,
